@@ -1,4 +1,4 @@
-package com.jaibala.deviceinfomodule
+package com.jaibala.infomodule
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.jaibala.deviceinfomodule", appContext.packageName)
+        assertEquals("com.jaibala.infomodule", appContext.packageName)
     }
 }

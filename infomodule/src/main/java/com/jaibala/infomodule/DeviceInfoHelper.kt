@@ -1,4 +1,4 @@
-package com.jaibala.deviceinfo.Utility
+package com.boomer11.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -111,4 +111,28 @@ class DeviceInfoHelper(val context: Context) {
             return ""
         }
     }
+
+
+    /*  private val Context.imei
+      @SuppressLint("HardwareIds", "MissingPermission")
+      get() = telephonyManager?.run {
+          if (isReadPhoneStatePermissionGranted()) {
+              if (SDK_INT >= VERSION_CODES.O) {
+                  imei
+              } else {
+                  deviceId
+              }
+          } else DEFAULT_DEVICE_ID
+      } ?: DEFAULT_DEVICE_ID
+
+      private fun Context.isReadPhoneStatePermissionGranted() =
+          ContextCompat.checkSelfPermission(
+              this,
+              Manifest.permission.READ_PHONE_STATE
+          ) == PackageManager.PERMISSION_GRANTED
+
+      private val Context.telephonyManager
+      get() = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager?*/
+
+
 }

@@ -1,4 +1,4 @@
-package com.jaibala.deviceinfomodule
+package com.jaibala.infomodule
 
 import org.junit.Test
 
